@@ -1,6 +1,7 @@
 import React from "react";
 import AllPost from "../../components/posts/all-posts";
-const DUMMY_POST = [
+import { getAllPost } from "../../lib/post-util";
+/* const DUMMY_POST = [
   {
     title: "About NextJs",
     image: "getting-staretd-with-next-js.png",
@@ -29,9 +30,18 @@ const DUMMY_POST = [
     date: "2022-02-21",
     slug: "getting-staretd-with-next-js4",
   },
-];
-const AllPostPage = () => {
-  return <AllPost posts={DUMMY_POST} />;
+]; */
+const AllPostPage = (props) => {
+  return <AllPost posts={props.posts} />;
 };
 
+export function getStaticProps() {
+  const allPosts = getAllPost();
+  return {
+    props: {
+      posts: allPosts,
+    },
+    // revalidate: 60
+  };
+}
 export default AllPostPage;
