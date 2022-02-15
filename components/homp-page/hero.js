@@ -10,7 +10,7 @@ const Hero = () => {
           alt="An image showing of web-development"
           width={500}
           height={500}
-        ></Image>
+        />
       </div>
       <h1>Hi, I'm Prabhat</h1>
       <p>
