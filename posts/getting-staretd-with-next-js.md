@@ -1,6 +1,6 @@
 ---
     title: "About NextJs"
-    image: "getting-staretd-with-next-js.png"
+    image: "nextjs.png"
     excerpt: "NextJs is a react framework for production"
     date: "2022-02-21"
     isFeatured: true
