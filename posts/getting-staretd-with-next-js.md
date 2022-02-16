@@ -1,18 +1,12 @@
 ---
-    title: "About NextJs"
-    image: "nextjs.png"
-    excerpt: "NextJs is a react framework for production"
-    date: "2022-02-21"
-    isFeatured: true
-    # slug: "getting-staretd-with-next-js"
-   
+title: 'Getting Started with NextJS'
+date: '2022-10-16'
+image: getting-started-nextjs.png
+excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR.
+isFeatured: true
 ---
 
-# This is a title
-
-This is some regular text with a [link](https://google.com)
-
-NextJS is a framework for ReactJS.
+NextJS is a **framework for ReactJS**.
 
 Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
 
@@ -20,21 +14,20 @@ Well ... first of all, React is a "library" for JavaScript. That seems to be imp
 
 Not for me, but still, there is a valid point: React already is a framework / library for JavaScript. So it's already an extra layer on top of JS.
 
-Why would we then need NextJS?
+## Why would we then need NextJS?
+
 Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
 
 In this article, we'll dive into the core concepts and features NextJS has to offer:
 
-File-based Routing
-Built-in Page Pre-rendering
-Rich Data Fetching Capabilities
-Image Optimization
-Much More
-File-based Routing
-Create routes via your file + folder structure
+- File-based Routing
+- Built-in Page Pre-rendering
+- Rich Data Fetching Capabilities
+- Image Optimization
+- Much More
 
 ## File-based Routing
 
-![create routes via your file + folder structure](nextjs-file-based-routing.png)
+![Create routes via your file + folder structure](nextjs-file-based-routing.png)
 
 ... More content ...
